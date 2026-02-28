@@ -8,11 +8,11 @@ scratch** using NumPy, without relying on sklearn.
 The objective of this project was to deeply understand the mathematical
 and computational foundation of K-Means, including:
 
--   Centroid initialization\
--   Euclidean distance computation\
--   Cluster assignment\
--   Centroid updates\
--   Convergence criteria\
+-   Centroid initialization
+-   Euclidean distance computation
+-   Cluster assignment
+-   Centroid updates
+-   Convergence criteria
 -   Cluster visualization
 
 ------------------------------------------------------------------------
@@ -35,26 +35,23 @@ The final clusters are visualized using Matplotlib:
 -   Centroids are clearly marked
 -   Clean 2D representation of cluster separation
 
-Add your generated output image inside the `images/` folder and display
-it like this:
-
-![Clustering Result](images/clustering_result.png)
+![Clustering Result](/Image.png)
 
 ------------------------------------------------------------------------
 
 ## ⚙️ Tech Stack
 
--   Python\
--   NumPy\
+-   Python
+-   NumPy
 -   Matplotlib
 
 ------------------------------------------------------------------------
 
 ## 📈 Key Learnings
 
--   Efficient vectorized distance computation using NumPy\
--   Importance of centroid stability for convergence\
--   Impact of initialization on final clusters\
+-   Efficient vectorized distance computation using NumPy
+-   Importance of centroid stability for convergence
+-   Impact of initialization on final clusters
 -   Stronger understanding of unsupervised learning fundamentals
 
 ------------------------------------------------------------------------
